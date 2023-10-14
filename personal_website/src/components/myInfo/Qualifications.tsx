@@ -1,4 +1,4 @@
-import Nick_work from '../../assets/WhatsApp_Image_2023-04-03_at_11.47.24-removebg-preview.png'
+import Nick_work from '../../assets/work.png'
 
 const Qualifications = () => {
   return (
@@ -9,7 +9,7 @@ const Qualifications = () => {
     </div>
     <div className="">
     
-      <img className="h-96" src={Nick_work} alt="Nick's Image" />
+      <img className="h-96" src={Nick_work} alt="Nick" />
     </div>
   </div>
   )

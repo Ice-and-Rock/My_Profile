@@ -2,14 +2,14 @@ import Nick from '../../assets/b&w_Nick.png'
 
 const AboutMe = () => {
   return (
-    <div className="bg-teal-900 my-16 p-16 max-h-64 flex items-center justify-between">
-      <div className="flex-1">
-        <div className="text-2xl font-bold">hey, my name is Nick</div>
-        <div className="text-lg">I'm an aspiring software engineer with a passion for mountains</div>
+    <div className="flex bg-teal-900 text-white my-16 p-16 max-h-64 flex items-center justify-between">
+      <div className="flex flex-col flex-1">
+        <div className="text-2xl font-bold m-3">Hey, my name is Nick</div>
+        <div className="text-md m-3 text-justify">Honest, hardworking and self motivated individual in pursuit of a new carrer in software engineering. With years of successful experience as a self employed electrician, managing large luxury chalet and commercial builds and renovations in the French Alps, I am now looking for a fresh start in full-stack web design and data engineering. Ready to put in the hard work to build on my experience and expertise.</div>
       </div>
-      <div className="">
+      <div className="flex">
       
-        <img className="h-96" src={Nick} alt="Nick's Image" />
+        <img className="w-96 " src={Nick} alt="nick" />
       </div>
     </div>
   )
