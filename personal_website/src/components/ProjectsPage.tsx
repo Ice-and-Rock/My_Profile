@@ -2,7 +2,13 @@
 const ProjectsPage = () => {
   return (
     <div>
-      This is the page I show off my stuff
+      <div>JavaScript Quiz</div>
+      <div>TradesMin</div>
+      <div>Flight weather tracker</div>
+      <div>Asteroid blaster</div>
+      <div>Kyrgystan Expedition</div>
+      <div>WiseWalletKitchen</div>
+
     </div>
   )
 };
