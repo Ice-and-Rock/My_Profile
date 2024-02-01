@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import AsteroidImage from "../assets/projectImages/AsteroidGame.png";
-import JavascriptImage from "../assets/projectImages/JavascriptQuiz.png";
-import TradesMinImage from "../assets/projectImages/TradesMin.png";
-import WiseWalletImage from "../assets/projectImages/WiseWalletKitchen.png";
-import FlightPlanner from "../assets/projectImages/FlightPlanner.png";
+import AsteroidImage from "../../assets/projectImages/AsteroidGame.png";
+import JavascriptImage from "../../assets/projectImages/JavascriptQuiz.png";
+import TradesMinImage from "../../assets/projectImages/TradesMin.png";
+import WiseWalletImage from "../../assets/projectImages/WiseWalletKitchen.png";
+import FlightPlanner from "../../assets/projectImages/FlightPlanner.png";
 
 // Create an interface for the Navigation
 interface ProjectsItem {
@@ -18,7 +18,34 @@ interface ProjectsItem {
 }
 const projects: ProjectsItem[] = [
   {
+    name: "TradesMin",
+    description:
+      "Here is a bunch of text Here is a bunch of text Here is a bunch of text",
+    href: "/",
+    content: "this is the description of this project",
+    github: "https://github.com/Ice-and-Rock",
+    image: JavascriptImage,
+  },
+  {
+    name: "DevDash - Dojo",
+    description:
+      "Here is a bunch of text Here is a bunch of text Here is a bunch of text",
+    href: "/",
+    content: "this is the description of this project",
+    github: "https://github.com/Ice-and-Rock",
+    image: JavascriptImage,
+  },
+  {
     name: "Javascript Quiz",
+    description:
+      "Here is a bunch of text Here is a bunch of text Here is a bunch of text",
+    href: "/",
+    content: "this is the description of this project",
+    github: "https://github.com/Ice-and-Rock",
+    image: JavascriptImage,
+  },
+  {
+    name: "Kygystan Expedition Tracker",
     description:
       "Here is a bunch of text Here is a bunch of text Here is a bunch of text",
     href: "/",
@@ -88,14 +115,7 @@ const ProjectsPage = () => {
         </Link>
       ))}
 
-      {/* <div>
-      <div>JavaScript Quiz</div>
-      <div>TradesMin</div>
-      <div>Flight weather tracker</div>
-      <div>Asteroid blaster</div>
-      <div>Kyrgystan Expedition</div>
-      <div>WiseWalletKitchen</div>
-    </div> */}
+    
     </div>
   );
 };

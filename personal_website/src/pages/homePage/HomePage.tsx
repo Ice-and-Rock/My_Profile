@@ -1,16 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import AboutMe from "./myInfo/AboutMe";
-import MyIntestests from "./myInfo/MyIntestests";
-import Projects from "./myInfo/Projects";
-import Qualifications from "./myInfo/Qualifications";
-import WorkHistory from "./myInfo/WorkHistory";
+import AboutMe from "./components/myInfo/AboutMe";
+import MyIntestests from "./components/myInfo/MyIntestests";
+import Projects from "./components/myInfo/Projects";
+import Qualifications from "./components/myInfo/Qualifications";
+import WorkHistory from "./components/myInfo/WorkHistory";
 
 const HomePage = () => {
   return (
     <div className="flex flex-col bg-gray-800 ">
-      <p>Welcome to the HomePage</p>
       <AboutMe />
       <Projects />
       <WorkHistory />

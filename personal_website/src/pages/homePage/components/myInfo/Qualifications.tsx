@@ -1,4 +1,4 @@
-import Nick_work from '../../assets/work.png'
+import Nick_work from "../../../../assets/projectImages/AsteroidGame.png"
 
 const Qualifications = () => {
   return (
